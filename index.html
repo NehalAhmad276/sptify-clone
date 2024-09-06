@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="utiliti.css">
+
+<body>
+    <div class="container">
+        <div class="left ">
+            <div class="box1 radius">
+                <ul>
+                    <li><img style="height: 40px;" class="invert" src="img/logo.svg" alt="">
+                        <img style="height: 30px;" class="close invert" src="img/close.svg" alt="">
+                    </li>
+                    <li><img class="invert" src="img/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library radius">
+                <div class="lib2">
+                    <img class="invert" src="img/library.svg" alt="">
+                    <div>Your Library</div>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right ">
+            <div class="nav radius">
+                <div class="navimg">
+                    <div class="hamburger">
+                        <img class="invert" style="height: 40px;" src="img/hamburger.svg" alt="">
+                    </div>
+                    <img class="invert" src="img/left.svg" alt="">
+                    <img class="invert" src="img/right.svg" alt="">
+                </div>
+                <div class="navbutton">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="plylist radius">
+                <h1>Spotify Playlists</h1>
+                <div class="cardcontainer radius">
+                    <!-- <div data-folder="English" class="card radius">
+                        <img src="img/img.jpeg" alt="">
+                        <h2>Animal</h2>
+                        <h3>Manan Bharatwaj,Vishal Mishra,Jaani </h3>
+                        <div class="playbutton">
+                            <img src="img/play.svg" alt="">
+                        </div>
+                    </div>
+                    <div data-folder="Hindi" class="card radius">
+                        <img src="img/img.jpeg" alt="">
+                        <h2>Animal</h2>
+                        <h3>Manan Bharatwaj,Vishal Mishra,Jaani </h3>
+                        <div class="playbutton">
+                            <img src="img/play.svg" alt="">
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="playbar radius">
+                    <div class="aboveseek">
+                        <div class="songinfo">song name</div>
+                        <div class="playbarbutton invert">
+                            <img id="previous" src="img/previous.svg" alt="">
+                            <img id="play" src="img/play.svg" alt="">
+                            <img id="next" src="img/next.svg" alt="">
+                        </div>
+                        <div class="volumecontainer">
+                            <div class="volume">
+                                <img class="invert" src="img/volume.svg" alt="">
+                                <input class="range" type="range" name="volume">
+                            </div>
+                            <div class="time"></div>
+                        </div>
+                    </div>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
